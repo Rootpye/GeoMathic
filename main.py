@@ -9,7 +9,7 @@ import numpy as np
 class FunctionGraphApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Advanced Function Graph Plotter")
+        self.root.title("GeoMathic")
 
         # Input field for function expression and add button
         self.expression_label = tk.Label(root, text="Enter Function (e.g., y = 2*x + 3, y = sin(x), y = exp(x)):")
